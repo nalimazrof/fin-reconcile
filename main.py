@@ -13,7 +13,8 @@ warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
 # ==========================================
 # 1. 基础与路径配置
 # ==========================================
-EXCEL_FILE = "Finances.xlsx"
+# 动态获取当前系统的用户目录 (例如 C:\Users\jiang)
+user_home = os.path.expanduser("~")
 CSV_DIR = "CSV for validation"
 YEAR_TAB = "2026"
 ASSETS_TAB = "US assets"
