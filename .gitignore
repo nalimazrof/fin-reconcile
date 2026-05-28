@@ -12,4 +12,4 @@ wheels/
 # 忽略敏感财务数据和 API 凭证
 Finances.xlsx
 .simplefin_url
-*.xlsx  # （可选）如果你想忽略所有 Excel 文件，可以加上这行
+#*.xlsx  # （可选）如果你想忽略所有 Excel 文件，可以加上这行
